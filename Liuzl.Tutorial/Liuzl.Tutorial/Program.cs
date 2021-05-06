@@ -2,7 +2,5 @@
 using System;
 using System.Threading.Tasks;
 
-SUV suv1 = new SUV();
-SUV suv2 = new SUV("blue");
-SUV suv3 = new SUV("red", "bmw");
+Demo006_3.Method1();
 Console.Read();

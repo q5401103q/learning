@@ -21,6 +21,7 @@ namespace Liuzl.Tutorial.Samples
             //删除一个委托
             Logger.WriteMessage -= LoggingMethods.LogToFile;
             Logger.WriteMessage -= LoggingMethods.LogToFile;
+            Logger.WriteMessage -= LoggingMethods.LogToFile;
         }
     }
 

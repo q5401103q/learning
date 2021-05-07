@@ -1,5 +1,6 @@
 ## 保留关键字 delegate
 下面的代码展示了单一委托和多播委托的示例：
+
 ```csharp
 using System;
 using System.IO;
@@ -63,3 +64,9 @@ Logger.WriteMessage("world");
  * world
  */
 ```
+
+### 补充说明
+* 多播委托通过 `+=` 或者 `-=` 操作符进行绑定；
+* 注意绑定的顺序与执行的顺序不是对应的，即执行顺序不确定；
+* 删除委托时，不会抛出异常；
+* 常见于winform中的 `event` 处理；

@@ -8,7 +8,7 @@ namespace Liuzl.Tutorial.Samples
 {
     class Demo006_2
     {
-        public async void Method1()
+        public void Method1()
         {
             //创建委托实例，方法一
             MyDelegate1 md1 = new MyDelegate1(MyDelegate1Handler);

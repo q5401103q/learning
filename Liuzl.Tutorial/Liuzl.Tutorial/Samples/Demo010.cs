@@ -23,6 +23,7 @@ namespace Liuzl.Tutorial.Samples
         {
             byte b = 3;
             Digit d = (Digit)b;
+            byte b1 = d;
         }
     }
 

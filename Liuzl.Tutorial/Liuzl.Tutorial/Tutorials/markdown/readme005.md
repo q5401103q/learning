@@ -21,6 +21,14 @@ namespace Liuzl.Tutorial.Tutorials
             {
                 Console.WriteLine(num);//1 2
             }
+
+            //用while循环代替foreach
+            IEnumerator<int> enumerator = Method1().GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                int current = enumerator.Current;
+                Console.WriteLine(current);
+            }
         }
 
         public static IEnumerable<int> Method1()
